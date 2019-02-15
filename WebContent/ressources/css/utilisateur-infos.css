@@ -1,0 +1,114 @@
+
+@charset "UTF-8";
+*{	margin: 0px;
+font-family : Arial;}
+
+h1{
+	text-align:center;
+}
+.container{
+	background-color:green;
+	width:60%;
+	text-align:center;
+	margin:0 auto;
+	padding :50px;
+	width:60%;
+	 overflow:hidden;
+	
+}
+.container1{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+margin-top:5%;
+	
+}
+.button{
+	background-color:white;
+	border-radius:20px;
+	padding:10px;
+	border-style:none;
+}
+
+span{
+	font-weight: bold;
+	
+	
+}
+.nom, .prenom{
+	font-size:1.8em;
+	color:white;
+}
+.nom{
+	text-transform: uppercase;
+}
+img{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	margin-right:5%;
+}
+
+.caption-style-1 img{
+		float: left;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+.caption-style-1:hover .caption{
+		opacity: 1;
+
+	}
+.caption{
+	margin: 0px;
+		padding: 0px;
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		-webkit-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+
+	}
+.caption .blur{
+		background-color: rgba(0,0,0,0.65);
+		height: 300px;
+		width: 300px;
+		z-index: 5;
+		position: absolute;
+		border-radius:50%;
+	margin-right:5%;
+	}
+	.caption .caption-text h1{
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+	.caption .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		text-align: center;
+		top:100px;
+	}
+
+.user ul{
+	font-size:1.4em;
+	margin-top:60px;
+	border:2px dotted g;
+	display:inline-block;
+		
+		text-align:left;
+width:95%;	
+padding:25px;
+}
+.user ul:hover{
+	 transform: scale(1.3);
+	 border-style:none;
+}
+
+ul li{
+	
+	list-style-type: none;
+}
+
